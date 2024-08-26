@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --fondo:rgb(219, 182, 152);
+    --cajaSaludo:#a4c0b7;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    background-color:var(--fondo);
+}
+
+/*Saludo*/
+
+.box {
+    background-color:var(--cajaSaludo);
+    display:flex;
+    justify-content: center;
+    margin:10px;
+}
+
+#nombre {
+    font-size: 1em;
+}
+
+button {
+    font-size: 0.80em;
+    padding:5px;
+}
+
+label, input, button, p{
+    margin:10px;
+}
+
+/*cat*/
+
+#cat {
+    display:block;
+    width:200px;
+    cursor: pointer;
+}
+
+.labelMaulla {
+    font-size: 0.5em;
+}
+
+#inputMaulla {
+    width:50px
+}

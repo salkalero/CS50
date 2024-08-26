@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso C50x</title>
+    
+    <link rel="stylesheet" href="./scratch.css">
+</head>
+<body>
+    <div class="box">
+        <label for="nombre">¿Como te llamas?</label>
+        <input type="text" id="nombre">
+        <button type="button" onclick="saludar()">Aceptar</button>
+        <p id="saludo">¡¡¡Míra aquí!!!</p>
+    </div>
+    <div class="box">
+        <p>Toca al lindo gatito<label class="labelMaulla" for="inputMaulla">¿Cuantas veces quieres que maulle el gatito?:</label><input id="inputMaulla" type="number" min="1" max="5">
+            <img id="cat" src="./asset/img/cat.svg" alt="Un lindo gatito">
+            <audio id="audio" preload="auto">
+                <source src="./asset/audio/catMeow.mp3" type="audio/mpeg">
+            </audio>
+        </p>
+    </div>
+    <script src="./scratch.js"></script>
+</body>
+</html>
