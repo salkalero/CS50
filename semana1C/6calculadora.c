@@ -106,6 +106,9 @@ int cinco(void)
     printf("%li\n", x / y);
     fin();
 }
+
+
+
 int main(void)
 {
     uno();
@@ -117,4 +120,6 @@ int main(void)
     cuatro();
 
     cinco();
+
+
 }
