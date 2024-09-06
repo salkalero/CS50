@@ -1,6 +1,13 @@
 #include <stdio.h>
 #include <cs50.h>
 
+int hori(void);
+int vert(void);
+int comb(void);
+int bloConst(void);
+
+
+
 
 int hori(void)
 {
