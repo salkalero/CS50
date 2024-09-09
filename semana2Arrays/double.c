@@ -1,16 +1,17 @@
-#include <cs50.h>
 #include <stdio.h>
+#include <cs50.h>
 
-int main (void)
+int main(void)
 {
-    int sequence[5];
+    //int tarj = get_int("Nº Tarjeta: ");
 
-    sequence[0] = 1;
-    printf("%i\n", sequence[0]);
+    int array[5];
 
-    for (int i = 1; i < 5; i++)
-    {
-        sequence[i] = sequence[i - 1] * 2;
-        printf("%i\n", sequence[i]);
-    }
+//    array[0] = 1;
+//    array[1] = 10;
+//    array[2] = 100;
+//    array[3] = 1000;
+//    array[4] = 10000;
+
+    printf("%c\n",array[1]);
 }
